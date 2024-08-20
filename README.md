@@ -26,4 +26,6 @@ Scripts Bash criados para auxiliar no gerenciamento de usuários em múltiplos s
 ### Autores
 
 - Davidson Carvalho dos Santos - [@Davidsonnj](https://github.com/Davidsonnj)
+  
 - Ana Júlia Caetano Martins - [@anajcaetanom](https://github.com/anajcaetanom)
+
