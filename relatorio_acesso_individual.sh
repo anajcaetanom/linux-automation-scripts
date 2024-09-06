@@ -4,8 +4,6 @@
 
 IP_FILE=$(cat ip_list.txt)
 
-USERNAME=$1
-
 echo -e "\nCRIANDO NOVO USUÁRIO E GERANDO RELATÓRIO\n\n"
 
 echo "Digite a senha para o usuário fbro: "
