@@ -19,7 +19,7 @@ do
     # Skip over empty lines
     if [[ -n "${ip}" ]]; then
         if sshpass -p "$FBRO_PASS" ssh -o StrictHostKeyChecking=no -T fbro@"$ip" "
-            echo '$FBRO_PASS' | sudo -S useradd -m $USERNAME && echo '$USERNAME:$USER_PASS' | sudo chpasswd
+            echo '$FBRO_PASS' | sudo -S useradd -m -s /bin/bash $USERNAME && echo '$USERNAME:$USER_PASS' | sudo chpasswd
         "
         then
             echo "User $USERNAME created on $ip with password '$USER_PASS'"
