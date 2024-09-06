@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Arquivo individual para cada maquin
+# Arquivo individual para cada máquina
 
 IP_FILE=$(cat ip_list.txt)
 
